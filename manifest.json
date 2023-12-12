@@ -1,0 +1,13 @@
+{
+  "description":"Download sheet music from musicscore fetches",
+  "manifest_version" : 2,
+  "name" : "MusicScore Ripper",
+  "version": "1.0",
+  "permissions":[
+      "webRequest",
+      "<all_urls>"
+  ],
+  "background": {
+      "scripts": ["background.js"]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "musicscore-ripper",
+  "version": "1.0.0",
+  "description": "Sheet music ripper",
+  "main": "index.js",
+  "repository": "git@github.com:smartchain-llc/musicscore-ripper.git",
+  "author": "stricklandrbls <strickland.rbls@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "typescript": "^5.3.3"
+  }
+}
