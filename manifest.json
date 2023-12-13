@@ -8,6 +8,9 @@
       "webRequest",
       "<all_urls>"
   ],
+  "content_scripts" : [
+    { "matches" : ["*://musescore.com/user/*/scores/*"], "js": ["./build/main.js"]}
+  ],
   "browser_action": {
     "default_icon": "icons/treble-clef-stroke.png",
     "default_title": "Rip",
