@@ -1,5 +1,6 @@
 {
   "description":"Download sheet music from musicscore fetches",
+  "icons" : {"48": "icons/treble-clef-stroke.png"},
   "manifest_version" : 2,
   "name" : "MusicScore Ripper",
   "version": "1.0",
@@ -7,7 +8,9 @@
       "webRequest",
       "<all_urls>"
   ],
-  "content_scripts" : [
-    { "matches" : ["*://musescore.com/user/*/scores/*"], "js": ["./build/main.js"]}
-  ]
+  "browser_action": {
+    "default_icon": "icons/treble-clef-stroke.png",
+    "default_title": "Rip",
+    "default_popup": "resources/popup_example.html"
+  }
 }
