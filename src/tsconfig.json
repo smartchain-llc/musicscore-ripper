@@ -3,7 +3,9 @@
         "module": "CommonJS",
         "noImplicitAny": true,
         "removeComments": true,
-        "outDir": "../build"
+        "outDir": "../build",
+        "types": []
     },
-    "include": ["./*"]
+    "include": ["./*"],
+    "exclude": ["../node_modules/*"]
 }

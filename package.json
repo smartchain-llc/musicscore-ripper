@@ -18,7 +18,7 @@
     "ts-node": "^10.9.2"
   },
   "scripts": {
-    "compile": "tsc -c src/tsconfig.json",
+    "compile": "yarn tsc -p src/tsconfig.json",
     "test": "yarn mocha -r ts-node/register ./tests/**/*.test.ts"
   }
 }
