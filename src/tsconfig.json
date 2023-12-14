@@ -4,7 +4,7 @@
         "noImplicitAny": true,
         "removeComments": true,
         "outDir": "../build",
-        "types": []
+        "types": ["firefox-webext-browser"]
     },
     "include": ["./*"],
     "exclude": ["../node_modules/*"]

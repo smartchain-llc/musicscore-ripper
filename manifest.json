@@ -8,6 +8,9 @@
       "webRequest",
       "<all_urls>"
   ],
+  "background":{
+    "scripts": ["./build/background.js"]
+  },
   "content_scripts" : [
     { "matches" : ["*://musescore.com/user/*/scores/*"], "js": ["./build/main.js"]}
   ],

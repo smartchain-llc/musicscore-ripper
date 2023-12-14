@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@types/chai": "^4.3.11",
+    "@types/firefox-webext-browser": "^120.0.0",
     "@types/mocha": "^10.0.6",
     "chai": "^4.3.10",
     "mocha": "^10.2.0",

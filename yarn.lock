@@ -52,6 +52,11 @@
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.3.11.tgz#e95050bf79a932cb7305dd130254ccdf9bde671c"
   integrity sha512-qQR1dr2rGIHYlJulmr8Ioq3De0Le9E4MJ5AiaeAETJJpndT1uUNHsGFK3L/UIu+rbkQSdj8J/w2bCsBZc/Y5fQ==
 
+"@types/firefox-webext-browser@^120.0.0":
+  version "120.0.0"
+  resolved "https://registry.yarnpkg.com/@types/firefox-webext-browser/-/firefox-webext-browser-120.0.0.tgz#161c4066f631b83656b37bfc51114081a1a9e383"
+  integrity sha512-L+tDlwNeq0kQGfAYc2sNfKhRWJz9CNRvlbq9HnLibKUiJ3VTThG8sj7xrJF4CtKpEA9eBAr91Z2nnKIAy+xUJg==
+
 "@types/mocha@^10.0.6":
   version "10.0.6"
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-10.0.6.tgz#818551d39113081048bdddbef96701b4e8bb9d1b"
